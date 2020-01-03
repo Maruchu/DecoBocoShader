@@ -70,6 +70,7 @@ Shader "Maruchu/DecoBocoShader"
             {
                 float4  pos         : SV_POSITION;      //画面上の位置
                 float2  uv          : TEXCOORD0;        //テクスチャ情報
+                float4  color       : COLOR;            //乗算色情報
             };
 
 
@@ -80,17 +81,22 @@ Shader "Maruchu/DecoBocoShader"
                 //テクスチャのUV情報取得
                 o.uv          = TRANSFORM_TEX( v.texcoord, _MainTex);
                 //オフセットを追加した位置を取得
-                fixed4 ofsCol = tex2Dlod ( _OffsetTex, float4( o.uv, 0, 0));
-                fixed4 ofsVal = (((ofsCol.r +ofsCol.g +ofsCol.b) /3) *(_OffsetW -_OffsetB)) +_OffsetB;
+                float4 ofsCol = tex2Dlod ( _OffsetTex, float4( o.uv, 0, 0));
+                float  value  = ((ofsCol.r +ofsCol.g +ofsCol.b) /3);
+                float4 ofsVal = (value *(_OffsetW -_OffsetB)) +_OffsetB;
                 o.pos         = UnityObjectToClipPos( v.vertex + mul( unity_ObjectToWorld, ofsVal));
+                //単純に高低差をつけただけだと分かりづらいので高さに応じた色を乗算する
+                float4 ofsSub = (_OffsetW -_OffsetB);
+                value        *= clamp((ofsSub.x +ofsSub.y +ofsSub.z), -0.3, 0.3);
+                o.color       = float4(value,value,value,1);
                 return o;
             }
 
             //フラグメントシェーダー
-            fixed4 frag( v2f i) : COLOR0
+            float4 frag( v2f i) : COLOR0
             {
-                //色情報を取得
-                return tex2D( _MainTex, i.uv);
+                //テクスチャの色情報を取得
+                return tex2D( _MainTex, i.uv) +i.color;
             }
 
             ENDCG
