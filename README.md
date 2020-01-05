@@ -14,14 +14,16 @@ Copyright(C) 2020 [㊥Maruchu](http://maruchu.nobody.jp/ "㊥Maruchu")
 
 DecoBocoShader のフォルダにサンプルのシーンが入っているので開いて実行してみてください。
 
-> DecoBocoShader/Sample.scene　：　サンプルシーン
+> DecoBocoShader/Sample1.unity　：　地形(山)のサンプルシーン
+> DecoBocoShader/Sample2.unity　：　間取りのサンプルシーン
+> DecoBocoShader/Sample3.unity　：　ロゴのサンプルシーン
 
 
 <br>
 Projectビューから DecoBocoShader/DecoBocoMaterial を選択して、<br>
 Inspector から「Offset Texture」に白黒のテクスチャが設定されていることを確認します。
 
-テクスチャが設定されていたら、「Offset White」の「Y」の値を変更してみてください。
+テクスチャが設定されていたら、「Offset Value(White)」の「Y」の値を変更してみてください。
 
 <img src="http://many.chu.jp/Unity/DecoBocoShader/Inspector1.png" alt="Inspector">
 
