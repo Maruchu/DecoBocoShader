@@ -14,8 +14,8 @@ Copyright(C) 2020 [㊥Maruchu](http://maruchu.nobody.jp/ "㊥Maruchu")
 
 DecoBocoShader のフォルダにサンプルのシーンが入っているので開いて実行してみてください。
 
-> DecoBocoShader/Sample1.unity　：　地形(山)のサンプルシーン
-> DecoBocoShader/Sample2.unity　：　間取りのサンプルシーン
+> DecoBocoShader/Sample1.unity　：　地形(山)のサンプルシーン<br>
+> DecoBocoShader/Sample2.unity　：　間取りのサンプルシーン<br>
 > DecoBocoShader/Sample3.unity　：　ロゴのサンプルシーン
 
 
