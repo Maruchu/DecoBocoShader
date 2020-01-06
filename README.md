@@ -5,6 +5,17 @@
 
 Copyright(C) 2020 [㊥Maruchu](https://twitter.com/Maruchu "㊥Maruchu")
 
+
+<br><br><br><br>
+## 概要
+
+ゲーム開発などで白黒の画像一枚からサクッと壁のようなものを作れると便利ですよね。<br>
+というわけでグレースケールの画像から高低差のある見た目を生成するシェーダーです。<br>
+(やっていることは Unity の Terrain の簡易版です)
+
+<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample1s.gif" alt="地形サンプル">
+
+
 <br><br><br><br>
 ## サンプル
 
@@ -14,20 +25,17 @@ DecoBocoShader のフォルダにサンプルのシーンが入っているの�
 > DecoBocoShader/Sample2.unity　：　間取りのサンプルシーン<br>
 > DecoBocoShader/Sample3.unity　：　ロゴのサンプルシーン
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample1s.gif" alt="地形サンプル"> <img src="http://many.chu.jp/Unity/DecoBocoShader/Sample2s.gif" alt="間取りサンプル">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample2s.gif" alt="間取りサンプル">
 
 
 <br><br><br><br>
 ## 使い方
 
-ゲーム開発などで間取り図のような画像一枚からサクッと壁のようなものを作れると便利ですよね。<br>
-というわけで白黒の画像から高低差のある見た目を生成するシェーダーです。<br>
-(やっていることは Unity の Terrain の簡易版です)
+Projectタブから DecoBocoShader/Sample1 をダブルクリックで開いて、<br>
+次に DecoBocoShader/Graphics/Mountain のマテリアル(青い球のアイコン)を選択してください。
 
-Projectビューから DecoBocoShader/DecoBocoMaterial を選択して、<br>
-Inspector から「Offset Texture」に白黒のテクスチャが設定されていることを確認します。
-
-テクスチャが設定されていたら、「Offset Value(White)」の「Y」の値を変更してみてください。
+Inspector から「Offset Texture」に白黒のテクスチャが設定されていることを確認したら、<br>
+「Offset Value(White)」の「Y」の値を変更して 見た目を変化させてみてください。
 
 <img src="http://many.chu.jp/Unity/DecoBocoShader/Inspector1.png" alt="Inspector">
 
@@ -38,5 +46,15 @@ Inspector から「Offset Texture」に白黒のテクスチャが設定され�
 
 
 <br><br><br><br>
+## 応用編
+
+このシェーダーは色味(Color Texture)を変えることで様々なものに使えます<br>
+気になったテクスチャを入れてみて どのような見た目が作れるか、いろいろ実験してみてください！
+
+<img src="http://many.chu.jp/Unity/DecoBocoShader/Variation1.png" alt="バリエーションサンプル">
+
+
+<br><br><br><br>
 ## ライセンス
 デコボコシェーダーにはMITライセンスが適用されています<br>
+
