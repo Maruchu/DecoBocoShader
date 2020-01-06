@@ -1,7 +1,7 @@
 ﻿# DecoBocoShader
 デコボコシェーダー<br>
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample3.gif" alt="ロゴサンプル">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample3l.gif" alt="ロゴサンプル">
 
 Copyright(C) 2020 [㊥Maruchu](https://twitter.com/Maruchu "㊥Maruchu")
 
