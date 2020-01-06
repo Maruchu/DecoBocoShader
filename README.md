@@ -3,7 +3,7 @@
 
 <img src="http://many.chu.jp/Unity/DecoBocoShader/Sample3.gif" alt="ロゴサンプル">
 
-Copyright(C) 2020 [㊥Maruchu](http://maruchu.nobody.jp/ "㊥Maruchu")
+Copyright(C) 2020 [㊥Maruchu](https://twitter.com/Maruchu "㊥Maruchu")
 
 <br><br><br><br>
 ## サンプル
@@ -14,7 +14,7 @@ DecoBocoShader のフォルダにサンプルのシーンが入っているの�
 > DecoBocoShader/Sample2.unity　：　間取りのサンプルシーン<br>
 > DecoBocoShader/Sample3.unity　：　ロゴのサンプルシーン
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample1.gif" alt="地形サンプル"> <img src="http://many.chu.jp/Unity/DecoBocoShader/Sample2.gif" alt="間取りサンプル">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample1s.gif" alt="地形サンプル"> <img src="http://many.chu.jp/Unity/DecoBocoShader/Sample2s.gif" alt="間取りサンプル">
 
 
 <br><br><br><br>
