@@ -35,7 +35,7 @@ Projectタブから DecoBocoShader/Sample1 をダブルクリックで開いて�
 次に DecoBocoShader/Graphics/Mountain のマテリアル(青い球のアイコン)を選択してください。
 
 Inspector から「Offset Texture」に白黒のテクスチャが設定されていることを確認したら、<br>
-「Offset Value(White)」の「Y」の値を変更して 見た目を変化させてみてください。
+「Offset Value(White)」の値を変更して 見た目を変化させてみてください。
 
 <img src="http://many.chu.jp/Unity/DecoBocoShader/Inspector1.png" alt="Inspector">
 
