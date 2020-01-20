@@ -1,7 +1,7 @@
 ﻿# DecoBocoShader
 デコボコシェーダー<br>
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample3l.gif" alt="ロゴサンプル">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/c/Sample3.gif" alt="ロゴサンプル">
 
 Copyright(C) 2020 [㊥Maruchu](https://twitter.com/Maruchu "㊥Maruchu")
 
@@ -13,7 +13,7 @@ Copyright(C) 2020 [㊥Maruchu](https://twitter.com/Maruchu "㊥Maruchu")
 というわけでグレースケールの画像から高低差のある見た目を生成するシェーダーです。<br>
 (やっていることは Unity の Terrain の簡易版です)
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample1s.gif" alt="地形サンプル">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/c/Sample1.gif" alt="地形サンプル">
 
 
 <br><br><br><br>
@@ -25,7 +25,7 @@ DecoBocoShader のフォルダにサンプルのシーンが入っているの�
 > DecoBocoShader/Sample2.unity　：　間取りのサンプルシーン<br>
 > DecoBocoShader/Sample3.unity　：　ロゴのサンプルシーン
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Sample2s.gif" alt="間取りサンプル">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/c/Sample2.gif" alt="間取りサンプル">
 
 
 <br><br><br><br>
@@ -35,14 +35,14 @@ Projectタブから DecoBocoShader/Sample1 をダブルクリックで開いて�
 次に DecoBocoShader/Graphics/Mountain のマテリアル(青い球のアイコン)を選択してください。
 
 Inspector から「Offset Texture」に白黒のテクスチャが設定されていることを確認したら、<br>
-「Offset Value(White)」の「Y」の値を変更して 見た目を変化させてみてください。
+「Offset Value(White)」の値を変更して 見た目を変化させてみてください。
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Inspector1.png" alt="Inspector">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/c/Inspector1.png" alt="Inspector">
 
 > Color Texture 　　　　　：　色情報のテクスチャ(透過は使えません)<br>
 > Offset Texture　　　　　：　オフセット情報のテクスチャ(白黒の画像を設定します)<br>
-> Offset Value(White)　 　 ：　白い部分のオフセット(X,Y,Z)<br>
-> Offset Value(Black)　　　：　黒い部分のオフセット(X,Y,Z)
+> Offset Value(White)　 　 ：　白い部分のオフセット<br>
+> Offset Value(Black)　　　：　黒い部分のオフセット
 
 
 <br><br><br><br>
@@ -51,7 +51,7 @@ Inspector から「Offset Texture」に白黒のテクスチャが設定され�
 このシェーダーは色味(Color Texture)を変えることで様々なものに使えます<br>
 気になったテクスチャを入れてみて どのような見た目が作れるか、いろいろ実験してみてください！
 
-<img src="http://many.chu.jp/Unity/DecoBocoShader/Variation1.png" alt="バリエーションサンプル">
+<img src="http://many.chu.jp/Unity/DecoBocoShader/c/Variation1.png" alt="応用例">
 
 
 <br><br><br><br>
