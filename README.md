@@ -12,7 +12,7 @@ Copyright(C) 2020 [㊥Maruchu](https://twitter.com/Maruchu "㊥Maruchu")
 <br><br><br><br>
 ## 概要
 
-ゲーム開発などで白黒の画像一枚からサクッと壁のようなものを作れると便利ですよね。<br>
+ゲーム開発などで白黒の画像一枚からサクッと山や壁のようなものを作れると便利ですよね。<br>
 というわけでグレースケールの画像から高低差のある見た目を生成するシェーダーです。<br>
 (やっていることは Unity の Terrain の簡易版です)
 
@@ -34,7 +34,7 @@ DecoBocoShader のフォルダにサンプルのシーンが入っているの�
 <br><br><br><br>
 ## 使い方
 
-Projectタブから Assets/DecoBocoShader/Sample3 をダブルクリックで開いて、<br>
+Projectタブから Assets/DecoBocoShader/Sample3 というシーンをダブルクリックで開いて、<br>
 次に Assets/DecoBocoShader/Graphics/LogoMaterial のマテリアル(青い球のアイコン)を選択してください。
 
 各シーンに入っているマテリアル<br>
@@ -45,6 +45,8 @@ Projectタブから Assets/DecoBocoShader/Sample3 をダブルクリックで開
 
 Inspector から「Offset Texture」に白黒のテクスチャが設定されていることを確認したら、<br>
 「Offset Value(White)」の値を変更して 見た目を変化させてみてください。
+
+このような見た目を確認できます。
 
 <img src="http://many.chu.jp/Unity/DecoBocoShader/d/Inspector1.png" alt="Inspector">
 
