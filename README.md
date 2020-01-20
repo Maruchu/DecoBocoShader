@@ -34,8 +34,14 @@ DecoBocoShader のフォルダにサンプルのシーンが入っているの�
 <br><br><br><br>
 ## 使い方
 
-Projectタブから DecoBocoShader/Sample1 をダブルクリックで開いて、<br>
-次に DecoBocoShader/Graphics/Mountain のマテリアル(青い球のアイコン)を選択してください。
+Projectタブから Assets/DecoBocoShader/Sample3 をダブルクリックで開いて、<br>
+次に Assets/DecoBocoShader/Graphics/LogoMaterial のマテリアル(青い球のアイコン)を選択してください。
+
+各シーンに入っているマテリアル<br>
+> Sample1　：　MountainMaterial<br>
+> Sample2　：　HouseMaterial<br>
+> Sample3　：　LogoMaterial
+
 
 Inspector から「Offset Texture」に白黒のテクスチャが設定されていることを確認したら、<br>
 「Offset Value(White)」の値を変更して 見た目を変化させてみてください。
